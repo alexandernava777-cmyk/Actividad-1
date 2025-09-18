@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparte tus viajes</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        }
+        header, footer {
+        background-color: #eee;
+        padding: 10px;
+        }
+        header h1 {
+        margin: 0;
+        }
+        nav a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: #333;
+        }
+        section {
+        padding: 20px;
+        }
+        figure {
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+        }
+        figure img {
+        width: 150px;
+        height: auto;
+        display: block;
+        }
+        #descripcion img {
+        width: 300px;
+        height: auto;
+        }
+        .compartir {
+        margin-left: 20px; /* mueve todo el bloque a la derecha */
+        }
+    </style>
+    </head>
+<body>
+
+<header>
+    <section id="inicio">
+        <h1>Comparte tus viajes</h1>
+    </section>
+</header>
+
+<section id="navegacion">
+        <h2>Nueva York – Central Park</h2>
+        <nav>
+            <ul>
+            <li><a href="#descripcion">Descripción</a></li>
+            <li><a href="#fotos">Fotos relacionadas</a></li>
+            <li><a href="#comentarios">Comentarios</a></li>
+            </ul>
+        </nav>
+    </section>
+
+<!-- Sección Descripción -->
+<section id="descripcion">
+    <h3>Descripción</h3>
+    <p>Esta foto del Estanque del Conservatorio en Central Park en Ciudad de Nueva York
+        fue tomada en Octubre 22, 2021 con una cámara Canon EOS 30D.</p>
+    <figure>
+        <img src="imagenes/central-park.jpg" alt="Estanque del Conservatorio en Central Park">
+        <figcaption><em>Estanque del Conservatorio en Central Park.</em></figcaption>
+    </figure>
+</section>
+
+<div class="compartir">
+        <strong>Compartir: </strong>
+        <a href="#"><img src="imagenes/social/email_16.png" alt="email" width="15" height="15"></a>
+        <a href="#"><img src="imagenes/social/facebook_16.png" alt="facebook" width="15" height="15"></a>
+        <a href="#"><img src="imagenes/social/flickr_16.png" alt="flickr" width="15" height="15"></a>
+        <a href="#"><img src="imagenes/social/rss_16.png" alt="rss" width="15" height="15"></a>
+        <a href="#"><img src="imagenes/social/twitter_16.png" alt="twitter" width="15" height="15"></a>
+    </div>
+
+<section id="fotos">
+    <h3>Fotos relacionadas</h3>
+    <figure>
+        <img src="imagenes/related-square1.jpg" alt="Foto relacionada 1">
+    </figure><figure>
+        <img src="imagenes/related-square2.jpg" alt="Foto relacionada 2">
+    </figure><figure>
+        <img src="imagenes/related-square3.jpg" alt="Foto relacionada 3">
+    </figure>
+    
+</section>
+
+<!-- Sección Comentarios -->
+<section id="comentarios">
+    <h3>Comentarios</h3>
+    <article>
+        <p><strong>Por Ricardo</strong> 15 Septiembre ,2021</p>
+        <p>Tranquilo con el HDR amigo</p>
+    </article>
+    <article>
+        <p><strong>Por Susana</strong> 1 Octubre, 2021</p>
+        <p>Amo Central Park</p>
+    </article>
+</section>
+
+<footer>
+    <p><a href="#inicio" title="Inicio">Inicio</a> | <a href="#navegacion" title="Navegacion">Navegacion</a> | <a href="#" title="Buscar">Buscar</a></p>
+    <p>Copyright © 2025 Comparte Tus Viajes</p>
+    <p>Unidad de aprendizaje: Tecnologías para el Desarrollo de Aplicaciones Web</p>
+</footer>
+
+</body>
+</html>

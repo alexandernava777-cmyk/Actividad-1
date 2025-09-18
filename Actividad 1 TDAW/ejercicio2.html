@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 20px;}
+        nav a {margin-right: 15px;}
+        figure {display: inline-block; margin: 10px;}
+    </style>
+    </head>
+<body>
+
+<header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section id="inicio">
+    <h2>Sobre mí</h2>
+    <p>Soy estudiante de Inteligencia Artificial.</p>
+    <ul>
+        <li>Programación</li>
+        <li>Diseño web</li>
+        <li>Bases de datos</li>
+    </ul>
+    <img src="imagenes/mi_foto.jpg" alt="Mi foto" width="250" height="250">
+</section>
+
+<section id="galeria">
+    <h2>Galería multimedia</h2>
+
+    <figure>
+        <img src="imagenes/img1.jpg" alt="Imagen 1" width="150">
+        <figcaption>Caballerito 1</figcaption>
+    </figure>
+    <figure>
+        <img src="imagenes/img2.jpg" alt="Imagen 2" width="150">
+        <figcaption>Caballerito 2</figcaption>
+    </figure>
+    <figure>
+        <img src="imagenes/img3.jpg" alt="Imagen 3" width="150">
+        <figcaption>Hollow knight</figcaption>
+    </figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sn987Kg6Ml8?si=xs7xSh4879Mxx-k8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+    </form>
+</section>
+
+<footer>
+  <p>Alexander Nava – alexandernava777@gmail.com – 2025</p>
+</footer>
+
+</body>
+</html>
